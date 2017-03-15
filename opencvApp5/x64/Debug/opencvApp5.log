@@ -1,0 +1,33 @@
+﻿Build started 13/03/2017 21:31:07.
+     1>Project "D:\Mata Kuliah Tingkat II\Semester VI\Pengolahan Citra Digital\PR (Pak Yudhi)\opencvApp5\opencvApp5\opencvApp5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Mata Kuliah Tingkat II\Semester VI\Pengolahan Citra Digital\PR (Pak Yudhi)\openCV\opencv\build\include" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /errorReport:prompt /clr:nostdlib MyForm.cpp
+         MyForm.cpp
+     1>d:\mata kuliah tingkat ii\semester vi\pengolahan citra digital\pr (pak yudhi)\opencvapp5\opencvapp5\MyForm.h(322): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>d:\mata kuliah tingkat ii\semester vi\pengolahan citra digital\pr (pak yudhi)\opencvapp5\opencvapp5\MyForm.h(326): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>d:\mata kuliah tingkat ii\semester vi\pengolahan citra digital\pr (pak yudhi)\opencvapp5\opencvapp5\MyForm.h(330): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>d:\mata kuliah tingkat ii\semester vi\pengolahan citra digital\pr (pak yudhi)\opencvapp5\opencvapp5\MyForm.h(334): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>d:\mata kuliah tingkat ii\semester vi\pengolahan citra digital\pr (pak yudhi)\opencv\opencv\build\include\opencv2\core\cvstd.hpp(596): warning C4793: 'cv::String::String': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>d:\mata kuliah tingkat ii\semester vi\pengolahan citra digital\pr (pak yudhi)\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(413): warning C4793: 'cv::Mat::Mat': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>d:\mata kuliah tingkat ii\semester vi\pengolahan citra digital\pr (pak yudhi)\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(703): warning C4793: 'cv::Mat::release': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>d:\mata kuliah tingkat ii\semester vi\pengolahan citra digital\pr (pak yudhi)\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(1929): warning C4793: 'cv::SparseMat::addref': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>d:\mata kuliah tingkat ii\semester vi\pengolahan citra digital\pr (pak yudhi)\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(3530): warning C4793: 'cv::UMat::addref': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>d:\mata kuliah tingkat ii\semester vi\pengolahan citra digital\pr (pak yudhi)\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: 'cv::detail::PtrOwner::incRef': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>d:\mata kuliah tingkat ii\semester vi\pengolahan citra digital\pr (pak yudhi)\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: 'cv::detail::PtrOwner::decRef': function compiled as native:
+         	Found an intrinsic not supported in managed code
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Mata Kuliah Tingkat II\Semester VI\Pengolahan Citra Digital\PR (Pak Yudhi)\opencvApp5\x64\Debug\opencvApp5.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Mata Kuliah Tingkat II\Semester VI\Pengolahan Citra Digital\PR (Pak Yudhi)\openCV\opencv\build\x64\vc14\lib" /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64" /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\amd64" /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.10150.0\ucrt\x64" /LIBPATH:"C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64" /LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\Lib\um\x64" opencv_world320d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:x64\Debug\opencvApp5.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Mata Kuliah Tingkat II\Semester VI\Pengolahan Citra Digital\PR (Pak Yudhi)\opencvApp5\x64\Debug\opencvApp5.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Debug\MyForm.obj
+         "x64\Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.obj"
+         ..\..\openCV\opencv\build\x64\vc14\libd\opencv_world320d.lib
+         opencvApp5.vcxproj -> D:\Mata Kuliah Tingkat II\Semester VI\Pengolahan Citra Digital\PR (Pak Yudhi)\opencvApp5\x64\Debug\opencvApp5.exe
+     1>Done Building Project "D:\Mata Kuliah Tingkat II\Semester VI\Pengolahan Citra Digital\PR (Pak Yudhi)\opencvApp5\opencvApp5\opencvApp5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.58
